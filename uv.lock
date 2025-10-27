@@ -39,6 +39,7 @@ dependencies = [
     { name = "openai" },
     { name = "openai-agents" },
     { name = "playwright" },
+    { name = "polygon-api-client" },
     { name = "pydantic" },
     { name = "pypdf" },
     { name = "requests" },
@@ -66,6 +67,7 @@ requires-dist = [
     { name = "openai", specifier = ">=1.78.1" },
     { name = "openai-agents", specifier = ">=0.0.15" },
     { name = "playwright", specifier = ">=1.55.0" },
+    { name = "polygon-api-client", specifier = ">=1.16.1" },
     { name = "pydantic", specifier = ">=2.11.4" },
     { name = "pypdf", specifier = ">=5.5.0" },
     { name = "requests", specifier = ">=2.32.3" },
@@ -1849,6 +1851,20 @@ wheels = [
     { url = "https://files.pythonhosted.org/packages/06/2e/9db64518aebcb3d6ef6cd6d4d01da741aff912c3f0314dadb61226c6a96a/playwright-1.55.0-py3-none-win32.whl", hash = "sha256:29e6d1558ad9d5b5c19cbec0a72f6a2e35e6353cd9f262e22148685b86759f90", size = 35476046, upload-time = "2025-08-28T15:46:36.184Z" },
     { url = "https://files.pythonhosted.org/packages/46/4f/9ba607fa94bb9cee3d4beb1c7b32c16efbfc9d69d5037fa85d10cafc618b/playwright-1.55.0-py3-none-win_amd64.whl", hash = "sha256:7eb5956473ca1951abb51537e6a0da55257bb2e25fc37c2b75af094a5c93736c", size = 35476048, upload-time = "2025-08-28T15:46:38.867Z" },
     { url = "https://files.pythonhosted.org/packages/21/98/5ca173c8ec906abde26c28e1ecb34887343fd71cc4136261b90036841323/playwright-1.55.0-py3-none-win_arm64.whl", hash = "sha256:012dc89ccdcbd774cdde8aeee14c08e0dd52ddb9135bf10e9db040527386bd76", size = 31225543, upload-time = "2025-08-28T15:46:41.613Z" },
+]
+
+[[package]]
+name = "polygon-api-client"
+version = "1.16.1"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "certifi" },
+    { name = "urllib3" },
+    { name = "websockets" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/38/a9/034e0a75a75ec49ce3a9c6ffef3e240950a3fee04b323d3740d1b3729832/polygon_api_client-1.16.1.tar.gz", hash = "sha256:ecefefa9c5daea2e9da5c64182b732029a9b8e1a57602fc4ae0685d6be3799a7", size = 44054, upload-time = "2025-10-16T12:52:14.46Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/02/8e/2a076443db909a2e623284cc27a8c454820f98d55756ddab0611ab38d7d8/polygon_api_client-1.16.1-py3-none-any.whl", hash = "sha256:2098204769b8ed9562902dcc8a3fb654f9e8ea1aab2b90a1f833b9d9fe6fc6ac", size = 61975, upload-time = "2025-10-16T12:52:13.201Z" },
 ]
 
 [[package]]
